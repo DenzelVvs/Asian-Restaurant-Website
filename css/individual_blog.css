@@ -1,0 +1,36 @@
+main{
+  min-height: 92vh;
+  background-color: #708d81;
+  padding: 20px;
+  font-family: 'Lexend';
+}
+
+.card{
+  text-align: center;
+  background-color: #fff;
+  min-height: 30vh;
+  border: #000 1px solid;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.card h2{
+  font-size: 30px;
+  padding: 10px 0;
+  color: #8d0801;
+}
+
+
+.card p{
+  font-size: 20px;
+  font-weight: normal;
+  color: #000;
+  padding: 5px 0;
+}
+
+ol li{
+  font-size: 20px;
+  color: #708d81;
+  padding: 10px 0;;
+  list-style: decimal inside;
+}

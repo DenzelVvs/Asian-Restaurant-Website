@@ -1,0 +1,50 @@
+main{
+  min-height: 92vh;
+  background-color: #708d81;
+  padding: 10px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+  font-family: 'Lexend';
+  grid-auto-rows: minmax(40vh,40vh);
+}
+
+.card{
+  text-align: center;
+  background-color: #fff;
+  min-height: 30vh;
+  border: #000 1px solid;
+  border-radius: 10px;
+  overflow:hidden;
+  text-decoration: none;
+}
+
+.card:hover{
+  background-color: #eee;
+}
+
+.card h2{
+  font-size: 30px;
+  padding: 10px 0;
+  color: #8d0801;
+}
+
+
+.card p{
+  font-size: 20px;
+  font-weight: normal;
+  color: #000;
+}
+
+ol li{
+  font-size: 20px;
+  color: #708d81;
+  padding: 10px 0;;
+  list-style: decimal inside;
+}
+
+@media screen and (max-width: 800px){
+  main{
+    grid-template-columns: repeat(1,1fr);
+  }
+}

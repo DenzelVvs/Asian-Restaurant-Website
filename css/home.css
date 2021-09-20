@@ -1,0 +1,120 @@
+main{
+  /*  Image By: Bich Tran
+      Url: https://www.pexels.com/photo/fried-spring-rolls-840216/ */
+  background-image: url('../img/springrolls.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  font-family: 'Lexend';
+  /* align-items: center; */
+}
+
+.springrolls_txt{
+  /* border-style: solid; */
+  height: 50vh;
+  width: 40vw;
+  padding: 10% 20px;
+  color: #001427;
+}
+
+.springrolls_txt h2{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.columns{
+  display: flex;
+  height: 100vh;
+  border-top: solid;
+  border-color: #001427;
+}
+
+.columns p{
+  color: #fff;
+  font-family: 'Lexend';
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.link_button{
+  text-decoration: none;
+  padding: 10px 20px;
+  border: #f4d58d 1px solid;
+  color: #f4d58d;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.column-1 p{
+  color: #001427;
+}
+
+.column-1 .link_button{
+  color: #001427;
+  border: #001427 1px solid;
+}
+
+.column-1{
+  /*  Image By: Lovefood Art
+      Url: https://www.pexels.com/photo/shrimp-soup-in-white-ceramic-bowl-with-chili-on-brown-wooden-surface-1437590/ */
+  background-image: url('../img/soup.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-2{
+  /*  Image By: cottonbro
+      Url: https://www.pexels.com/photo/person-taking-photo-of-dish-in-bowl-3296547/ */
+  background-image: url('../img/phone.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.column-3{
+  /*  Image By: cottonbro
+      Url: https://www.pexels.com/photo/sushi-on-black-surface-3298179/ */
+  background-image: url('../img/sushi.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px){
+  .columns{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-1{
+    width: 100vw;
+  }
+
+  .column-2{
+    width: 100vw;
+  }
+
+  .column-3{
+    width: 100vw;
+  }
+}

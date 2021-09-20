@@ -1,0 +1,32 @@
+main{
+  min-height: 92vh;
+  background-color: #708d81;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lexend';
+}
+
+.container{
+  width:60vw;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container h3{
+  font-size: 30px;
+}
+
+.info{
+  width: 20vw;
+}
+
+.question{
+  width:20vw;
+  height: 20vh;
+}
+
+.wrapper{
+  flex-direction: column;
+}

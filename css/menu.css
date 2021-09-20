@@ -1,0 +1,131 @@
+main{
+  /*  Image By: Karolina Grabowska
+      Url: https://www.pexels.com/photo/gray-and-black-rock-formation-4709465/ */
+  background-image: url('../img/marble.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: #f4d58d;
+}
+main > h2{
+  display: flex;
+  justify-content: center;
+  font-family: 'Lexend';
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.wrapper{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.menu_items{
+  width: 60vw;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px,auto);
+}
+
+.menu_items > div{
+  background-color: #708d81;
+  border: #001427 2px solid;
+  border-radius: 10px;
+  color: #001427;
+}
+
+.dish_item{
+  padding: 10px;
+  font-family: 'Lexend';
+}
+
+.dish_item h3{
+  font-size: 20px;
+}
+
+.dish_item p{
+  font-size: 15px;
+}
+
+.price{
+  color: #eee;
+}
+
+.cartButton{
+  background: none;
+  text-decoration: none;
+  border: none;
+  font-family: 'Lexend';
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.cartButton:hover{
+  color: #8d0801;
+}
+
+/* ------ CART ------- */
+
+table{
+  width: 60vw;
+  font-family: 'Lexend';
+}
+
+.cart_column{
+  width: 20vw;
+  font-size: 30px;
+}
+
+.cart_item td{
+  width: 20vw;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.removeItem{
+  background: none;
+  text-decoration: none;
+  border: none;
+  font-family: 'Lexend';
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.removeItem:hover{
+  color: #8d0801;
+}
+
+.quantity{
+  width:40px;
+  border-radius: 5px;
+  border: #000 2px solid;
+  background-color: #ccc;
+}
+
+.container{
+  width:60vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container span{
+  width:20vw;
+  text-align: center;
+  font-family: 'Lexend';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 980px) {
+  .menu_items{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .menu_items{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
